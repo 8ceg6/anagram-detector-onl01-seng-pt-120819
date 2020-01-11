@@ -12,7 +12,7 @@ class Anagram
       if word.split("").sort == self.any_word.split("").sort 
         word 
         end
-        binding.pry
+        
       end
   end 
 end 
