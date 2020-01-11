@@ -11,9 +11,8 @@ class Anagram
     words.find_all do |word|
       if word.split("").sort == self.any_word.split("").sort 
         word 
-        
-    binding.pry
         end
+        
       end
   end 
 end 
