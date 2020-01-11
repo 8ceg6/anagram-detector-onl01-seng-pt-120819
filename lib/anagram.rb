@@ -7,7 +7,7 @@ class Anagram
       @any_word= any_word
   end 
   
-  def self.match(words)
+  def match(words)
     words.find_all do |word|
       if word.split("").sort == self.any_word.split("").sort 
         word 
